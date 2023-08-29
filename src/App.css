@@ -1,0 +1,13 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/fluent.css";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/fluent.css";
+.App{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.e-input-group, .e-input-group.e-control-wrapper {
+  margin-bottom: 20px;
+}
+.e-float-input:not(.e-error):not(.e-input-focus):not(.e-disabled) input:not(:focus):not(:valid) ~ label.e-float-text:not(.e-label-top), .e-float-input:not(.e-error):not(.e-input-focus) textarea:not(:focus):not(:valid) ~ label.e-float-text:not(.e-label-top), .e-float-input.e-control-wrapper:not(.e-error):not(.e-input-focus):not(.e-disabled) input:not(:focus):not(:valid) ~ label.e-float-text:not(.e-label-top){
+  padding-left: 0px;
+}
